@@ -22,14 +22,14 @@ spec:
       schemaFilePath: openapi.yaml
   outbound:
     serviceReferences:
-    - name: choreo:///codechallenge/appointment-management/cmrqnc/8b1c3/v1.0/ORGANIZATION
-      connectionConfig: 01eef67c-b6e6-17c0-9120-68782ddbb0c9
+    - name: choreo:///pravee/appointment-management/eckwad/8b1c3/v1/ORGANIZATION
+      connectionConfig: 01ef0c42-f801-18a0-819c-40c2552fb6f7
       env:
       - from: ServiceURL
-        to: APPOINTMENT_SERVICE_URL
+        to: https://59036cfb-152f-4000-90fa-48f78147ac5e-dev-internal.e1-us-east-azure.internal.choreoapis.dev/appointment-management/appointment-service/appointments-8b1/v1
       - from: ConsumerKey
-        to: APPOINTMENTS_OAUTH_CLIENT_ID
+        to: 4KHz_qobD6ntoONyAFCEJ0txil0a
       - from: ConsumerSecret
-        to: APPOINTMENTS_OAUTH_CLIENT_SECRET
+        to: JJkjKpmgNIGGyedu33MfjE27Huca
       - from: TokenURL
-        to: APPOINTMENTS_OAUTH_TOKEN_URL
+        to: https://sts.choreo.dev/oauth2/token

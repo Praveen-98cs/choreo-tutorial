@@ -26,10 +26,10 @@ spec:
       connectionConfig: 01ef0c4f-811e-1be6-9ea7-95f7e3692084
       env:
       - from: ServiceURL
-        to: https://59036cfb-152f-4000-90fa-48f78147ac5e-dev-internal.e1-us-east-azure.internal.choreoapis.dev/appointment-management/appointment-service/appointments-8b1/v1
+        to: APPOINTMENT_SERVICE_URL
       - from: ConsumerKey
-        to: cMaso9Df1g7VTVCb2sbEeopfVYMa
+        to: APPOINTMENTS_OAUTH_CLIENT_ID
       - from: ConsumerSecret
-        to: BvqHjNNMdyHA71hPDkNdqVxhB7ka
+        to: APPOINTMENTS_OAUTH_CLIENT_SECRET
       - from: TokenURL
-        to: https://sts.choreo.dev/oauth2/token
+        to: APPOINTMENTS_OAUTH_TOKEN_URL  

@@ -23,7 +23,7 @@ spec:
   outbound:
     serviceReferences:
     - name: choreo:///pravee/appointment-management/eckwad/8b1c3/v1/ORGANIZATION
-      connectionConfig: 01ef0c4d-b6c2-1a7e-b5ea-042d4734b66a
+      connectionConfig: 01ef0c4f-811e-1be6-9ea7-95f7e3692084
       env:
       - from: ServiceURL
         to: https://59036cfb-152f-4000-90fa-48f78147ac5e-dev-internal.e1-us-east-azure.internal.choreoapis.dev/appointment-management/appointment-service/appointments-8b1/v1
